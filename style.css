@@ -1,0 +1,70 @@
+* {
+    background: #ff6e7f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bfe9ff, #ff6e7f);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(222, 69, 156, 0.37);
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 400px;
+    box-shadow: #ff6e7f;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 16px;
+    grid-template-columns: repeat(4, 76px);
+}
+
+input {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(200px);
+    -webkit-backdrop-filter: blur(200px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    grid-column: span 4;
+    height: 40px;
+    border-radius: 10px;
+    text-align: end;
+    font-size: larger;
+    font-style: italic;
+    color: #ff6e7f;
+}
+
+button {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 90px;
+    color: #ff6e7f;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+    font-style: bold;
+    cursor: pointer;
+}
+
+#ans {
+    width: 150px;
+}
